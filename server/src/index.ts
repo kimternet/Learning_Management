@@ -33,21 +33,12 @@ app.get("/", (req, res) => {
 app.use("/courses", courseRoutes);
 
 /* SERVER LISTEN */
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 8001;
 if (!isProduction) {
     dynamoose.aws.ddb.local("http://localhost:8000");
-    app.listen(PORT, () => {
-        console.log(`Server running on port: ${PORT}`);
+    app.listen(port, () => {
+        console.log(`Server running on port: ${port}`);
     });
 }
 
-
-
-// /* SERVER LISTEN */
-// const PORT = process.env.PORT || 3000;
-// if (!isProduction) {
-//     app.listen(PORT, () => {
-//         console.log(`Server running on port: ${PORT}`);
-//     });
-// }
 export default app;
