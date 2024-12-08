@@ -6,6 +6,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import * as dynamoose from "dynamoose";
 /* ROUTE IMPORTS */
+import courseRoutes from "./routes/courseRoutes";
 
 /* CONFIGURATION */
 dotenv.config();
@@ -29,12 +30,24 @@ app.get("/", (req, res) => {
     res.send("Hello World");
 })
 
+app.use("/courses", courseRoutes);
+
 /* SERVER LISTEN */
 const PORT = process.env.PORT || 3000;
 if (!isProduction) {
+    dynamoose.aws.ddb.local("http://localhost:8000");
     app.listen(PORT, () => {
         console.log(`Server running on port: ${PORT}`);
     });
 }
 
+
+
+// /* SERVER LISTEN */
+// const PORT = process.env.PORT || 3000;
+// if (!isProduction) {
+//     app.listen(PORT, () => {
+//         console.log(`Server running on port: ${PORT}`);
+//     });
+// }
 export default app;
