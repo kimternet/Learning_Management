@@ -12,3 +12,4 @@
 - **📊 DB & BackEnd:** `Node.JS`, DyanamoDB
 ---
 https://github.com/kimternet/Learning_Management/issues/1#issue-2730476825
+![설명]([https://user-images.githubusercontent.com/...링크...]([https://github.com/kimternet/Learning_Management/issues/1#issue-2730476825]))
