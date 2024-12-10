@@ -10,7 +10,7 @@ const NonDashboardNavbar = () => {
         <div className="nondashboard-navbar__container">
             <div className="nondashboard-navbar__search">
                 <Link href="/" className="nondashboard-navbar__brand">
-                    EDROH
+                    김형운 포트폴리오
                 </Link>
                 <div className="flex items-center gap-4">
                     <div className="relative group">
