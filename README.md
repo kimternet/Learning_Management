@@ -12,3 +12,4 @@
 - **📊 DB & BackEnd:** `Node.JS`, DyanamoDB
 ---
 
+![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/93d72016-85f0-4d9a-878e-88f44fce23b8)
