@@ -11,4 +11,4 @@
 - **🌐 Language:** `TypeScript`, `CSS`, `REACT`
 - **📊 DB & BackEnd:** `Node.JS`, DyanamoDB
 ---
-<img src="https://github.com/kimternet/Learning_Management/assets/74497080/58f0b83f-ae13-4fbe-8cda-e4ef0b686d60" width="400">
+<img src="https://github.com/kimternet/Learning_Management/assets/74497080/58f0b83f-ae13-4fbe-8cda-e4ef0b686d60" width="300">
