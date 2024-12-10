@@ -11,5 +11,4 @@
 - **🌐 Language:** `TypeScript`, `CSS`, `REACT`
 - **📊 DB & BackEnd:** `Node.JS`, DyanamoDB
 ---
-https://github.com/kimternet/Learning_Management/issues/1#issue-2730476825
-![설명][https://github.com/kimternet/Learning_Management/issues/1#issue-2730476825]
+![LMS](https://github.com/kimternet/Learning_Management/assets/74497080/58f0b83f-ae13-4fbe-8cda-e4ef0b686d60)
