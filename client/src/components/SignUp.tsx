@@ -1,10 +1,10 @@
-import { SignIn } from '@clerk/nextjs';
+import { SignUp } from '@clerk/nextjs';
 import React from 'react'
 import { dark } from '@clerk/themes';
 
-const SignInComponent = () => {
+const SignUpComponent = () => {
     return (
-        <SignIn
+        <SignUp
             appearance={{
                 baseTheme: dark,
                 elements: {
@@ -28,4 +28,4 @@ const SignInComponent = () => {
     );
 };
 
-export default SignInComponent;
+export default SignUpComponent;
